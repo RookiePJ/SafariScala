@@ -1,5 +1,15 @@
 package date
 
+class Date {
+  println("This is a constructor invocation for Date")
+//  var day: Int = _
+//  var month: Int = _
+//  var year: Int = _
+//  val day: Int =
+//  val month: Int =
+//  val year: Int =
+}
+
 object Date {
   // overloads per "normal" same function name, different type-lists for args.
   def dayOfWeek(day: Int, month: Int, year: Int = 2019): Int = {
